@@ -2,11 +2,11 @@
 int is_lowercase(char);
 char *string_to_upper(char *);
 /**
-* print_hexadecimal_upp - Function that prints a num in hexadecimal format
+* hexadecimal_upp - Function that prints a num in hexadecimal format
 * @list: This is the num to printed
 * Return: Length of the num
 */
-int print_hexadecimal_upp(va_list list)
+int hexadecimal_upp(va_list list)
 {
 char *p_buff;
 int measure;
