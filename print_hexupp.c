@@ -35,10 +35,10 @@ char *string_to_upper(char *s)
 int j;
 for (j = 0; s[j] != '\0'; j++)
 {
-if (is_lowercase(s[i]))
+if (is_lowercase(s[j]))
 {
 s[j] = s[j] - 32;
 }
 }
-return (j);
+return (s);
 }

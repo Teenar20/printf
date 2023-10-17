@@ -10,7 +10,7 @@ int j, measure;
 const char *str;
 str = va_arg(list, const char *);
 measure = _strlen(str);
-for (j = size - 1; j >= 0; j--)
+for (j = measure - 1; j >= 0; j--)
 _putchar(str[j]);
 return (measure);
 }

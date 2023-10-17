@@ -26,7 +26,7 @@ int print(char *str)
 {
 int p;
 
-for (p = 0; str[i] != '\0'; ++i)
+for (p = 0; str[p] != '\0'; ++p)
 _putchar(str[p]);
 
 return (p);

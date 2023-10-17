@@ -12,7 +12,7 @@ int handler(const char *str, va_list list)
 int size, p, aux;
 
 size = 0;
-for (p = 0; str[p] != 0; i++)
+for (p = 0; str[p] != 0; p++)
 {
 if (str[p] == '%')
 {
